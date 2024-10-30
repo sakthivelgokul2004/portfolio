@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .gradiant {
+  background: rgb(2, 8, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 8, 10, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+} */
+
+.gradiant {
+  --tw-gradient-to: #262626 var(--tw-gradient-to-position);
+}
+@layer components {
+  .icon {
+    @apply scale-[2] shadow-lg  border-spacing-1 bg-transparent;
+  }
+  .iconContainer {
+    @apply grid place-items-center overflow-y-hidden shadow-lg  h-4/5 
+    gradiant rounded-xl border-black-1 border-[1px] md:scale-110 transition
+      md:hover:translate-x-2 p-4  object-cover object-center grid-flow-row w-4/5;
+  }
+  .input {
+    @apply border-2 rounded-lg border-black-1 p-4;
+  }
+}
+/* hover:z-10 hover:absolute */
