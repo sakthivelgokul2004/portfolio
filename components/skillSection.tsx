@@ -10,7 +10,6 @@ import {
   SiGo,
   SiHtml5,
   SiJavascript,
-  SiJson,
   SiMongodb,
   SiMongoose,
   SiNpm,
