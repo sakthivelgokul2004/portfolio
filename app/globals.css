@@ -11,19 +11,23 @@
 } */
 
 .gradiant {
-  --tw-gradient-to: #262626 var(--tw-gradient-to-position);
+    --tw-gradient-to: #262626 var(--tw-gradient-to-position);
 }
 @layer components {
-  .icon {
-    @apply scale-[2] shadow-lg  border-spacing-1 bg-transparent;
-  }
-  .iconContainer {
-    @apply grid place-items-center overflow-y-hidden shadow-lg  h-4/5 
+    .icon {
+        @apply scale-[2] shadow-lg  border-spacing-1 bg-transparent;
+    }
+    .iconContainer {
+        @apply grid place-items-center overflow-y-hidden shadow-lg  h-4/5
     gradiant rounded-xl border-black-1 border-[1px] md:scale-110 transition
       md:hover:translate-x-2 p-4  object-cover object-center grid-flow-row w-4/5;
-  }
-  .input {
-    @apply border-2 rounded-lg border-black-1 p-4;
-  }
+    }
+    .input {
+        @apply border-2 rounded-lg border-black-1 p-4;
+    }
+    .image {
+        @apply md:aspect-video aspect-[5/4] border-black-1 border-[2px]
+        rounded-xl p-4  md:h-[515px] md:w-[916px] scale-75 md:scale-90;
+    }
 }
 /* hover:z-10 hover:absolute */

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { VscCode, VscJson } from "react-icons/vsc";
+import {  VscJson, VscVscode } from "react-icons/vsc";
 import { FaGitAlt } from "react-icons/fa";
 import {
   SiCss3,
@@ -43,7 +43,8 @@ const SkillSection = () => {
       </div>
       <div className="tools  iconContainer grid-cols-2 sm:ml-auto">
         <IconContext.Provider value={{ color: "white", className: "icon" }}>
-          <VscCode />
+
+          <VscVscode/> 
           <FaGitAlt />
           <SiNpm />
           <SiDocker />

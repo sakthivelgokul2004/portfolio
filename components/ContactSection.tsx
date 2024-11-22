@@ -15,7 +15,6 @@ const ContactSection = () => {
             ></input>
           </div>
         </form>
-        <div className=""></div>
       </div>
     </section>
   );
