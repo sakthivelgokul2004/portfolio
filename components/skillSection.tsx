@@ -60,7 +60,8 @@ const SkillSection = () => {
           <SiGo />
         </IconContext.Provider>
       </div>
-      <div className="">my stack</div>
+      <div className=" ml-auto iconContainer grid-cols-2 ">
+      </div>
     </div>
   );
 };

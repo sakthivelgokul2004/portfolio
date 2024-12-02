@@ -27,7 +27,11 @@
     }
     .image {
         @apply md:aspect-video aspect-[5/4] border-black-1 border-[2px]
-        rounded-xl p-4  md:h-[515px] md:w-[916px] scale-75 md:scale-90;
+        rounded-xl p-4  md:h-[515px] md:w-[916px] scale-75 md:scale-90 transition-transform ease-in delay-150;
+    }
+    .image-sm{
+        @apply md:aspect-video aspect-[5/4] border-black-1 border-[2px]
+        rounded-xl p-4  md:h-[515px] md:w-[916px] scale-50 md:scale-75 transition-transform ease-in delay-150;
     }
 }
 /* hover:z-10 hover:absolute */
